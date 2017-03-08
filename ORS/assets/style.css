@@ -1,0 +1,88 @@
+@keyframes layer2Anim {
+    0%{opacity:0;}
+    17%{opacity:0;}
+    33%{opacity:1;}
+    50%{opacity:1;}
+    67%{opacity:0;}
+    100%{opacity:0;}
+}
+@keyframes layer3Anim {
+    0%{opacity:0;}
+    50%{opacity:0;}
+    67%{opacity:1;}
+    83%{opacity:1;}
+    100%{opacity:0;}
+}
+@keyframes layer4Anim {
+    0%{opacity:0;}
+    50%{opacity:0;}
+    67%{opacity:1;}
+    83%{opacity:1;}
+    100%{opacity:0;}
+}
+@keyframes layer5Anim {
+    0%{opacity:0;}
+    50%{opacity:0;}
+    67%{opacity:1;}
+    83%{opacity:1;}
+    100%{opacity:0;}
+}
+.slideShow {
+    position: relative;
+}
+.placeHolder {
+    width: 100%;
+    visibility: hidden;
+}
+.layer1, .layer2, .layer3, .layer4, .layer5 {
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.layer1 {
+    background-image: url(../img/pic1.jpe);
+}
+.layer2 {
+    background-image: url(../img/pic2.jpe);
+    animation: layer2Anim 10s infinite;
+}
+.layer3 {
+    background-image: url(../img/pic3.jpe);
+    animation: layer3Anim 10s infinite;
+}
+.layer4 {
+    background-image: url(../img/pic4.jpe);
+    animation: layer4Anim 10s infinite;
+}
+.layer5 {
+    background-image: url(../img/pic5.jpe);
+    animation: layer5Anim 10s infinite;
+}
+.slideOverlay {
+    background-image: url(img/pic1.jpe);
+    background-attachment: fixed;
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    top: 0;
+    left: 0;
+}
+.slideOverlay p {
+    position: relative;
+
+}
+
+#slide{
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 3px 3px 6px #000;
+    text-align: center; 
+}
+
+#inner{
+    margin-top: 30%;
+}
