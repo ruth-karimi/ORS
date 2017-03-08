@@ -24,4 +24,5 @@
             <a class="grey-text text-lighten-4 right" href="#!">ORS</a>
             </div>
           </div>
-        </footer>
+        </div>
+  </footer>
